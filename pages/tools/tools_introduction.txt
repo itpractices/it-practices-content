@@ -1,0 +1,21 @@
+===== Tools Introduction =====
+
+Once we've established what processes we want to follow, it finally time to look at tools are best suited for the job. 
+
+The tool functions below lead you to evaluations between various tools, where we start with the requirements, then we look at our options which we evaluate. Finally we give advise based on the outcomes of the evaluation. 
+
+This [[:contribute:tool evaluation|Tool Evaluation Process]] will assist the community to look at the tools objectively and it will allow for easy extension later. When new tools enter the market or new version are released of already included tools, only a subset of work has to executed, rather than starting from scratch.
+
+---- datacloud ----
+field   : tag
+filter  : type=tool
+----
+
+---- datatable ----
+cols    : %pageid%, name, 
+headers : Details, Name
+filter  : type=tool
+sort    : ^name
+----
+
+

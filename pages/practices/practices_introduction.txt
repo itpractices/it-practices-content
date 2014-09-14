@@ -1,0 +1,17 @@
+===== Practices Introduction =====
+
+This is the complete list of practices described as part of the ALM Library.
+
+---- datacloud ----
+field   : tag
+filter  : type=practice
+----
+
+---- datatable ----
+cols    : name, %pageid%
+headers : Name, Details
+filter  : type=practice
+sort    : name
+----
+
+

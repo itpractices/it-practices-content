@@ -1,0 +1,148 @@
+===== Writing Guidelines =====
+
+These guidelines will assist you in writing high quality content and will increase consistency to the standards library. They are mandatory for submitting new content to be added to the [[http://www.instantalm.org|ALM-Library]].
+
+
+=== General ===
+
+The language to be used: "US English".
+Date notation:           "dd-MM-yyyy"
+Time notation:           "hh:mm" using 24 hour notation (GMT if applicable)
+
+links are created using all lower casing, spaces are allowed. For example:
+<nowiki>
+[[:tool:some really complicated tool:requirements|The Requirements of a really complicated tool]]
+</nowiki>
+
+=== Wiki Syntax ===
+
+[[:wiki:syntax|General Wiki Syntax]]
+[[:wiki:syntax imagemaps|Image map Syntax]]
+[[:wiki:syntax seo keywords |Search Engine Optimization: Keywords]]
+[[:wiki:syntax seo description |Search Engine Optimization: Description]]
+[[:wiki:syntax rigrr|Rigrr (Process Maps)]]
+[[:wiki:syntax revisionsdue|Revision Frequency]]
+[[:wiki:syntax data entry|Data Entry]]
+[[http://en.wikibooks.org/wiki/LaTeX/Mathematics |Mathematics Syntax]]
+
+=== Namespace Layout ===
+
+The namespace layout is as below. Before we go into the details its important to make a couple of comments about the list:
+  - As you can see there is a high similarity between the Navigation Menu.
+  - Process Names need to be unique !
+  - Submissions that diverge from the layout below will NOT be accepted.
+
+**The layout:**
+
+  * : (root)
+    * <color grey>start</color>
+    * <color grey>contribute</color>
+    * :processes  (General information pages)
+      * <color grey>process introduction</color>
+    * :process (No page, just namespace)
+      * <color grey>_template.txt</color>
+      * <color grey><<PROCESS>></color>
+      * <color grey><<PROCESS>></color>
+    * :roles   (General information pages and automated overview of roles)
+      * <color grey>roles introduction</color>
+    * :role    (No page, just namespace)
+      * <color grey>_template.txt</color>
+      * <color grey><<ROLE_NAME>>     (DataEntry: role)      </color>
+      * <color grey><<ROLE_NAME>>     (DataEntry: role)      </color>
+    * :methods
+      * <color grey>methods introduction</color>
+    * :maturity
+      * <color grey>maturity introduction</color>
+    * :continuous delivery
+      * <color grey>continuous delivery introduction</color>
+    * :tools                 (General information pages and automated overview of tools)
+      * <color grey>tools introduction</color>
+    * :tool    (No pages, just redirect to :tools:tools introduction)
+      * :requirements  (No pages, just redirect to :tools:tools introduction)
+        * <color grey>_template.txt</color>
+        * <color grey><<TOOL_NAME requirements>>     (DataEntry)      </color>
+        * <color grey><<TOOL_NAME requirements>>     (DataEntry)      </color>
+      * :evaluation    (No pages, just redirect to :tools:tools introduction)
+        * <color grey>_template.txt</color>
+        * <color grey><<TOOL_NAME evaluation>>     (DataEntry)      </color>
+        * <color grey><<TOOL_NAME evaluation>>     (DataEntry)      </color>
+      * :advise         (No pages, just redirect to :tools:tools introduction)
+        * <color grey>_template.txt</color>
+        * <color grey><<TOOL_NAME advise>>     (DataEntry)      </color>
+        * <color grey><<TOOL_NAME advise>>     (DataEntry)      </color>
+    * :metrics and reporting
+      * <color grey>metrics and reporting introduction</color>
+    * :knowledge management
+      * <color grey>knowledge management</color>
+    * :job aids   (General information pages and automated overview of job aids)
+      * <color grey>job aids introduction</color>
+    * :job aid     (No page, just namespace)
+        * <color grey>_template.txt</color>
+        * <color grey><<ALMxxxxxx-NAME>>   (DataEntry)  </color>
+        * <color grey><<ALMxxxxxx-NAME>>   (DataEntry)  </color>
+    * :adoption
+      * :trainings    (General information pages and automated overview of available training)
+        * <color grey>training introduction</color>
+      * :training      (No page, just namespace)
+        * <color grey>_template.txt</color>
+        * <color grey><<COURSE_NAME>>      (DataEntry)  </color>
+        * <color grey><<COURSE_NAME>>      (DataEntry)  </color>
+      * :adoption plans   (General information pages and automated overview)
+        * <color grey>adoption introduction</color>
+      * :adoption plan    (No page, just namespace)
+        * <color grey>_template.txt</color>
+        * <color grey><<ADOPTION_PLAN_NAME>>   (DataEntry)  </color>
+        * <color grey><<ADOPTION_PLAN_NAME>>   (DataEntry)  </color>
+      * :self assessments
+        * <color grey>self assessments introduction</color>
+      * :governance
+        * <color grey>governance introduction</color>
+    * :general
+      * <color grey>faq</color>
+      * :glossary (Links to sub-pages)
+        * <color grey>alphabetical</color>
+        * <color grey>per source</color>
+        * <color grey>tag cloud</color>
+      * glossaryitems   (No page, just namespace)
+        * <color grey>_template.txt</color>
+        * <color grey><<ITEM_NAME>>   (DataEntry)    </color>
+        * <color grey><<ITEM_NAME>>   (DataEntry)    </color>
+    * :wiki
+      * :git
+        * <color grey>local change status</color>
+        * <color grey>remote change status</color>
+    * :admin
+      * <color grey>orphaned pages</color>
+      * <color grey>pages wanted</color>
+      * <color grey>pages up for revision</color>
+      * <color grey>usage statistics</color>
+
+=== Process Page Layout ===
+
+A Process page will have the following sections:
+
+^ Section ^ Description ^
+| Unique Process Step Name | The name of the step that is described by this page. It has to be unique | 
+| Purpose | |
+| Inputs and Outputs | |
+| RASCI | |
+| Swimlane Diagram | |
+| Detailed Description | |
+| Continue Reading: | Links to other pages in this library that the reader might find interesting after reading the current page |
+
+An example page can be found here: [[todo|todo]]
+
+=== Tools Page Layout ===
+
+A Tool page will have the following sections:
+^ Section ^ Description ^
+| Unique Tool Name | This is the generic name of the function of a (set of) tool(s) e.g. "Source Control Management" rather than "Git" |
+| Datatable | |
+| Purpose | |
+| Requirements | |
+| Evaluation | |
+| Advise | |
+| Continue Reading: | Links to other pages in this library that the reader might find interesting after reading the current page |
+
+An example page can be found here: [[todo|todo]]
+
