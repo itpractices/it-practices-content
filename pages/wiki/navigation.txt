@@ -1,6 +1,7 @@
 **About this library**
 [[:start|Introduction]] 
 [[:contribute|Contribute]]
+[[:install|Install an instance]]
 
 **Navigate by:**
 [[:processes:process_introduction|Process]]

@@ -5,7 +5,7 @@
 
 ====== About the IT Practices Library ======
 
-The "IT Practices Library" contains [[:contribute:types of content|Deliverables, standards and practices]] agreed by the IT Practices Community [(community.itpractices.org)]. 
+The "IT Practices Library" contains [[:contribute:types of content|Deliverables, standards and practices]] agreed by the IT Practices Community [(http://community.itpractices.org)]. 
 
   * The content is 100% community driven and only contains content that your peers consider useful. The rest simply doesn't make it in.
   * Installing an on-premise instance of this library provides the end user with regular updates of improvements which can be chosen to be adopted or ignored.
