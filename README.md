@@ -1,4 +1,4 @@
-global-it-practices-library
-===========================
+it-practices-content
+====================
 
-Library of IT Practices to cherry-pick from to determine your IT Best Practices
+The content for the IT Practices Wiki
